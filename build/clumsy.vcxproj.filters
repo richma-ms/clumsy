@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{F2DEC52E-557A-854D-87E4-0891B8CD6DC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc">
+      <UniqueIdentifier>{4B975077-2BCE-EC41-BEFC-19C5D3C01D67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\cap.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\divert.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\drop.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\duplicate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\elevate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lag.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ood.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\packet.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\reset.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tamper.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\throttle.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\etc\clumsy.rc">
+      <Filter>etc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

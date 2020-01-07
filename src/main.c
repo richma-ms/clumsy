@@ -505,7 +505,7 @@ static void uiSetupModule(Module *module, Ihandle *parent) {
 int main(int argc, char* argv[]) {
     LOG("Is Run As Admin: %d", IsRunAsAdmin());
     LOG("Is Elevated: %d", IsElevated());
-    init(argc, argv);
+    //init(argc, argv);
     startup();
     cleanup();
     return 0;
